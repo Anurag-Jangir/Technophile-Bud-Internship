@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon2.png" type="image/x-icon">
+  </head> 
+  <body>
+    <nav>
+      <h1>Survey Form</h1>
+    </nav>
+    <form action=" ">
+      <div id="rate">
+        <p>How much do you like &#10084; this form-</p>
+        <div id="ratings">
+          <input type="radio" name="rating" id="radioNum1" value="like_1">
+          <label for="radioNum1">1</label>
+          <input type="radio" name="rating" id="radioNum2" value="like_2">
+          <label for="radioNum2">2</label>
+          <input type="radio" name="rating" id="radioNum3" value="like_3">
+          <label for="radioNum3">3</label>
+          <input type="radio" name="rating" id="radioNum4" value="like_4">
+          <label for="radioNum4">4</label>
+          <input type="radio" name="rating" id="radioNum5" value="like_5">
+          <label for="radioNum5">5</label>
+          <input type="radio" name="rating" id="radioNum6" value="like_6">
+          <label for="radioNum6">6</label>
+          <input type="radio" name="rating" id="radioNum7" value="like_7">
+          <label for="radioNum7">7</label>
+          <input type="radio" name="rating" id="radioNum8" value="like_8">
+          <label for="radioNum8">8</label>
+          <input type="radio" name="rating" id="radioNum9" value="like_9">
+          <label for="radioNum9">9</label>
+          <input type="radio" name="rating" id="radioNum10" value="like_10">
+          <label for="radioNum10">10</label>
+        </div>
+      </div>
+      <section>
+        <div>
+          <label for="name">Name:<span class="required">*</span></label>
+          <input type="text" name="name" id="name" class="prettier" title="Your Name" required></div>
+          
+          <div>
+            <label for="mo.number">Mobile Number:<span class="required">*</span></label>
+          <input type="number" name="number" id="mo.number" class="prettier" required></div>
+          
+          <div>
+          <label for="email">Email:<span class="required">*</span></label>
+          <input type="email" name="email" id="email" class="prettier" required></div>
+          
+          <div>
+            <label for="date"> Date & Time:<span class="required">*</span></label>
+            <input type="date" name="Datetime" id="date" class="prettier" required></div>
+            
+
+          <fieldset>
+            <legend>Academics</legend>
+            <label for="stream">Choose your Stream:<span class="required">*</span></label>
+            <select name="Stream" id="stream">   
+              <option value="CSE" selected>Computer Science & Engineering</option>
+              <option value="ME">Mechanical Engineering</option>
+              <option value="CE">Civil Engineering</option>
+              <option value="IT">Information Tehnology</option>
+            </select>
+
+          <div>
+            <label id="year">What year are you in at university?</label>
+            <label for="1st">
+            <input type="radio" name="year" id="1st"> I<sup>st</sup></input></label>
+            <label for="2nd">
+            <input type="radio" name="year" id="2nd"> II<sup>nd</sup></input></label>
+            <label for="3rd">
+            <input type="radio" name="year" id="3rd"> III<sup>rd</sup></input></label>
+            <label for="4th">
+            <input type="radio" name="year" id="4th"> IV<sup>th</sup></input></label>
+          </div>
+          </fieldset>
+    
+            
+        <label for="About">About Yourself:</label>
+          <div><textarea name="TextArea" id="About"></textarea></div>
+
+  
+        <div>
+          <label for="PD">Password:<span class="required">*</span></label>
+          <input type="password" name="password" id="PD" required><div>    
+        <div>
+  
+        </section>
+        <div class="buttons">
+      <div class="btn">
+          <input type="submit" value="Sumbit Now">      
+        </div>
+
+        <div class="btn">
+          <input type="reset" value="Reset Now">
+        </div>
+      </div>
+    </form>
+      <footer>
+        <marquee behavior="alternate" direction="">----------------~~~This page is Designed and Developed by Anurag Jangid | All rights reserved &copy;~~~----------------</marquee>
+    </footer>
+  </body>
+</html>
